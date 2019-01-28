@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Game Centre</string>
+    <string name="textview">TextView</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="ScoreText">Score</string>
+    <string name="SaveText">Save</string>
+    <string name="UndoText">Undo</string>
+    <string name="SubmitText">Submit</string>
+    <string name="button_newAccount">Create Account</string>
+    <string name="button_login">Sign in</string>
+    <string name="button_guest">Play As Guest</string>
+    <string name="button_createAccount">Create</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="name"></string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="button_slidingTiles">Sliding Tiles</string>
+    <string name="text_gameChoice">Please choose a game to play!</string>
+    <!-- Strings related to the scoreboard. -->
+    <string name="AccountName1" />
+    <string name="AccountName2" />
+    <string name="AccountName3" />
+    <string name="AccountName4" />
+    <string name="AccountName5" />
+    <string name="Score1" />
+    <string name="Score2" />
+    <string name="Score3" />
+    <string name="Score4" />
+    <string name="Score5" />
+    <string name="text_scoreboard">Scoreboard</string>
+    <string name="Matching_Welcome">Welcome To Matching Cards \n A Puzzle Game where you must match the pairs of cards together.</string>
+    <string name="button_matchingCards">Matching Cards</string>
+    <string name="Simon_Welcome">Welcome To Simon \n A Memory Game where you repeat the pattern flashed before you.</string>
+    <string name="button_simon">Simon</string>
+    <string name="score_board">Score Board</string>
+    <string name="new_game">New Game</string>
+    <string name="load_saved_game">Load Saved Game</string>
+    <string name="save_game">Save Game</string>
+    <string name="settings">Settings</string>
+</resources>

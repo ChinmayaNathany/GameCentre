@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/SimonScoreText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/colorAccent"
+        android:text="@string/SubmitText" />
+
+    <TextView
+        android:id="@+id/SimonScoreText"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="29dp"
+        android:text="@string/ScoreText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <fall2018.csc2017.gamecentre.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_below="@+id/SimonScoreText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:context="fall2018.csc2017.gamecentre.simon.SimonGameActivity"></fall2018.csc2017.gamecentre.GestureDetectGridView>
+
+    <Button
+        android:id="@+id/SimonSaveButtonGameScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/SimonScoreText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="113dp"
+        android:background="@color/colorAccent"
+        android:text="@string/SaveText" />
+
+    <Button
+        android:id="@+id/SimonUndoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SimonSaveButtonGameScreen"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/UndoText" />
+
+
+</RelativeLayout>
